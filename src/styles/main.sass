@@ -1,0 +1,510 @@
+body
+	background-color: #FFF
+	font-family: 'Montserrat'
+
+
+// Шапка
+.nav
+	display: flex
+	flex-flow: row wrap
+	justify-content: center
+	width: 103%
+	.first
+		margin-left: 60px
+.nav--item
+	display: flex
+	margin: 0 22px
+	align-items: center
+	text-transform: uppercase
+	font-size: 14px
+	a
+		color: black
+		text-decoration: none
+		&:hover
+			color: lighten(black, 50%)
+		&:active
+			color: darken(black, 30%)
+	img
+		margin-top: 3px
+.nav.default
+	z-index: 9999
+	position: fixed
+	width: 103%
+	background-color: #FFF
+
+
+
+
+
+// Слайдер
+.swiper-container 
+	position: relative
+    width: 100%
+    height: 100%
+.swiper-slide 
+	display: -webkit-box
+    display: -ms-flexbox
+    display: -webkit-flex
+    display: flex
+    -webkit-box-pack: center
+    -ms-flex-pack: center
+    -webkit-justify-content: center
+    justify-content: center
+    -webkit-box-align: center
+    -ms-flex-align: center
+    -webkit-align-items: center
+    align-items: center
+	img
+		max-width: 100%
+.content
+	display: flex
+	flex-flow: column wrap
+	justify-content: center
+	align-items: center
+	position: absolute
+	z-index: 11
+	height: 100%
+	width: 100%
+	color: white
+	padding: 0
+	margin: 0 
+	background-color: rgba(0,0,0,.5)
+	.logo
+		margin-bottom: 100px
+		margin-top: -100px
+	.cont1
+		font-size: 44px
+
+		p
+			padding: 5px 20px
+			margin: 0
+	.cont2
+		font-size: 16px
+		font-style: italic
+		border-radius: 3px
+		font-family: 'Merriweather'
+		background-size: cover
+		p
+			padding: 5px 20px
+			margin: 0
+	.btn
+		margin: 30px auto 200px
+		a
+			text-transform: uppercase
+			text-decoration: none
+			border: 2px solid white
+			padding: 10px 20px
+			color: white
+			background-color: rgba(0,0,0,.7)
+			&:hover
+				background-color: rgba(255,255,255,1)
+				color: black
+				border: 2px solid rgba(0,0,0,.7)
+			&:active
+				background-color: #FFF
+				border: none
+				padding: 12px 22px
+	.fon2
+		width: 100%
+		img
+			width: 100%
+			// position: absolute
+			margin-bottom: -217px
+			height: auto
+
+
+
+
+
+//Преимущества
+.about
+	display: flex
+	margin: 45px auto 30px 
+	color: black
+	font-size: 40px
+	justify-content: center
+	max-width: 1240px
+	text-transform: uppercase
+	p
+		margin: 0
+.benefits
+	display: flex
+	max-width: 1240px
+	margin: auto
+	flex-flow: row wrap
+	height: 970px
+	height: 100%
+	padding: 30px 0 
+.ic
+	display: flex
+	flex-flow: column wrap
+	flex: 1 1 250px
+	align-items: center
+	margin: 0 auto
+	p
+		text-align: center
+		margin: 0 auto
+		padding: 0 30px
+	img
+		padding: 20px 0 
+	.title
+		font-size: 30px
+	.subtitle	
+		font-family: 'Merriweather'
+		font-size: 16px
+		font-style: italic
+		font-weight: bold
+.gallery
+	display: flex
+	justify-content: center
+	max-width: 1240px
+	margin: auto
+	align-items: center
+	margin-bottom: 250px
+	padding-top: 60px
+.fon1
+	position: relative
+	img
+	    width: 100%
+	    position: absolute
+	    bottom: -7px
+
+
+
+
+
+
+
+// Команда
+.teamwrap
+	font-family: "Montserrat"
+	background-color: #000
+	height: 100%
+	padding-bottom: 140px
+	position: relative
+	text-transform: uppercase
+.fon
+	img
+		bottom: -7px
+		width: 100%
+		background-size: cover
+		background-position: center center
+		background-attachment: fixed
+		position: absolute
+.team 
+	display: flex
+	flex-flow: column wrap
+.text-center 
+	display: flex
+	margin: 45px auto 30px auto
+	color: white
+	font-size: 40px
+#menu-slider 
+	display: flex
+	align-items: center
+	justify-content: center
+#list-images
+	height: 600px
+	width: 800px
+	overflow: hidden
+	padding: 0
+	margin-right: 230px
+	margin-bottom: 100px
+	li
+		position: relative
+		height: 600px
+		width: 800px
+		list-style: none
+	img
+		background: #fff
+		position: absolute
+		top: 0
+		left: 0
+	span 
+	    position: absolute
+	    bottom: 0
+	    left: 0
+	    width: 100%
+	    display: block
+	    padding: 15px 10px
+	    color: #fff
+	    background-color: rgba(0,0,0,0.5)
+	    font-family: 'Merriweather'
+	    font-style: italic
+	    text-align: center
+#list-links
+	padding: 0
+	margin: 0
+	list-style: none
+	margin-bottom: 90px
+	li
+		margin: 0
+		padding: 20px 20px 20px 10px
+		color: white
+		font-size: 20px
+		list-style: none
+		cursor: pointer
+		&:hover
+		    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 20%, rgba(0,0,0,1) 100%);
+		    color: black
+
+
+
+
+
+
+
+
+
+// Услуги
+#services
+	background-color: #fff
+	padding-top: 35px
+	padding-bottom: 235px
+	color: black
+	display: flex
+	flex-flow: column wrap
+	margin: auto
+	.h3
+		font-style: italic
+		font-family: 'Merriweather'
+		font-size: 16px
+		max-width: 700px
+		min-width: 300px
+		display: flex
+		padding: 15px 0
+		text-align: center
+		flex-flow: row wrap
+		margin: auto
+
+	.h2
+		font-size: 30px
+		font-weight: 300
+		display: flex
+		padding: 15px 0
+		flex-flow: row wrap
+		margin: auto
+
+	.services
+		padding: 15px 0
+		display: flex
+		color: black
+		font-size: 40px
+		justify-content: center
+		flex-flow: row wrap
+		text-transform: uppercase
+	.prices
+		display: flex
+		margin: auto
+		width: 700px
+		flex-flow: row wrap
+		justify-content: space-between
+		align-items: center
+		.subprice
+			display: flex
+			flex-flow: column wrap
+			align-items: baseline
+			p
+				font-size: 20px
+				text-align: center
+				span
+					font-family: 'Merriweather'
+					font-style: italic
+	h2
+		text-align: center
+	.btn
+		margin: 30px auto
+		a
+			text-transform: uppercase
+			text-decoration: none
+			border: 2px solid black
+			padding: 10px 20px
+			color: black
+			background-color: rgba(255,255,255,.7)
+			&:hover
+				background-color: rgba(0,0,0,1)
+				color: white
+				border: none
+			&:active
+				background-color: #000
+				border: none
+				padding: 12px 22px
+
+			
+
+
+
+
+
+
+
+
+// Контакты
+#contact
+	background-color: #000
+	padding-top: 35px
+	padding-bottom: 235px
+.contactus
+	text-transform: uppercase
+	display: flex
+	margin: 0 auto 45px 
+	color: white
+	font-size: 40px
+	justify-content: center
+.form
+	.form-group
+		max-width: 1240px
+		margin: auto
+		width: 100%
+		display: flex
+		flex-flow: column wrap
+		justify-content: center
+		align-items: justify
+		padding: 0 20px
+	.text
+		height: 140px
+	.name
+		text-transform: capitalize
+	.fa
+		position: absolute
+		z-index: 1
+		font-size: 24px
+		margin-left: -30px
+		color: white
+	.fa-phone
+		font-size: 26px
+	.fa-envelope
+		font-size: 22px
+	.fa-pencil-square-o
+		font-size: 26px
+	input
+		max-width: 1240px
+		width: 100%
+		margin: 15px 0
+		height: 40px
+		display: flex
+		flex-flow: column wrap
+		text-align: center
+		justify-content: center
+		align-items: justify
+.button
+	margin: 30px auto 60px
+	text-transform: uppercase
+	text-decoration: none
+	border: 2px solid white
+	padding: 10px 80px
+	color: white
+	background-color: rgba(0,0,0,.7)
+	&:hover
+		background-color: rgba(255,255,255,1)
+		color: black
+		border: 2px solid rgba(0,0,0,.7)
+	&:active
+		background-color: #FFF
+		border: none
+		padding: 12px 82px
+.adress
+	display: flex
+	flex-flow: row wrap
+	width: 1240px
+	margin: auto
+	color: white
+	.street
+		width: 440px
+		display: flex
+		flex-flow: column wrap
+		align-items: center
+		justify-content: center
+		padding: 0 30px
+		p
+			text-align: center
+			font-style: italic
+			font-family: 'Merriweather'
+#map 
+	height: 620px
+	width: 796px
+.map
+	background-color: #000
+	display: flex
+	justify-content: center
+	border: solid 2px white
+	box-sizing: border-box
+	.selector-control
+		display: none
+
+
+
+
+
+#popup
+	background-color: #fff
+	padding: 20px
+	border: 1px solid #48A0E0
+	margin: auto
+	max-width: 320px
+	h3
+		margin: 20px auto
+		text-align: center
+		font-size: 20px
+	input
+		margin-bottom: 20px
+		outline: none
+		width: 100%
+		border-radius: 4px
+		border: 2px solid #eee
+		padding-left: 35px
+		height: 40px
+		position: relative
+		&:focus
+			border-color: black
+			outline: none
+	button
+		margin: auto
+		display: inline-block
+		text-transform: uppercase
+		text-decoration: none
+		border: 2px solid black
+		padding: 10px 21px
+		color: black
+		background-color: rgba(255,255,255,.7)
+		outline: none
+		margin-left: 24px
+		&:hover
+			background-color: rgba(0,0,0,1)
+			color: white
+			border: 2px solid white
+		&:active
+			background-color: #000
+			border: none
+			padding: 12px 22px
+			margin-left: 26px
+	.error
+		text-transform: uppercase
+		text-decoration: none
+		border: 2px solid black
+		padding: 10px 20px
+		color: black
+		background-color: rgba(255,255,255,.7)
+		&:hover
+			background-color: rgba(0,0,0,1)
+			color: white
+			border: 2px solid white
+		&:active
+			background-color: #000
+			border: none
+			padding: 12px 22px
+	.name
+		text-transform: capitalize
+	.fa
+		position: absolute
+		z-index: 1
+		font-size: 20px
+		margin-top: 10px
+		margin-left: 10px
+		color: black
+	.fa-phone
+		font-size: 22px
+	.fa-envelope
+		font-size: 18px
+.mfp-close
+	display: none
